@@ -1,0 +1,15 @@
+function P = LOCAL_CONF()
+%LOCAL_CONF Returns a struct with settings relevant to the local machine.
+%   This function returns a struct with settings relvant the machine and
+%   envoirment.
+%
+%       P.DATA_ROOT: location of data root folder on current machine.
+%       P.SCREEN_PTR: Screen id of the monitor to display ptb
+%		P.PTBDebug: wether or not to run PTB in debug mode
+
+P.DATA_ROOT = 'C:\DATA\CLASS\';
+P.SCREEN_PTR = 1;
+P.PTBDebug = false;
+
+end
+
